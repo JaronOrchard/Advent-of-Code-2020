@@ -3,7 +3,7 @@ function dayXX(input) {
 }
 
 /** ========== Helper functions ========== */
-// Arrays
+// Arrays -- Also remember concat(array), slice( [start,end) ), and splice(index, numToRemove, itemsToAdd...)
 function arrayContains(inputArr, val) { return inputArr.indexOf(val) !== -1; }
 function arrayIntersection(array1, array2) { return array1.filter(value => array2.includes(value)); }
 function removeItemFromArray(inputArr, val) { if (arrayContains(inputArr, val)) { inputArr.splice(inputArr.indexOf(val), 1); } }
